@@ -1,0 +1,9 @@
+body {
+    padding-top: 70px;
+    background-color: #F1F1BF ;
+}
+
+#quote {
+    font-size: 18px;
+    font-style: italic;
+}

@@ -1,0 +1,81 @@
+/* hide this in the beginning*/
+#moreAnnouncementsList {
+display:none;
+}
+
+#header a {
+   position:relative; 
+   left:25%;
+}
+
+input {
+width: 200px;
+}
+
+.tabs {
+   display:inline-block;
+}
+
+.tabLinks li {
+   float:left;
+   list-style:none;
+}
+
+.tabLinks a {
+   padding:9px 15px;
+   display:inline-block;
+   border-radius:3px 3px 0px 0px;
+   background:#FFFF4B;
+   font-weight:600;
+}
+
+.tabLinks a:hover {
+   background:#FFFF99;
+}
+
+#previewAnnouncementsList {
+}
+
+#previewAnnouncementsList li{
+   border-color: black;
+   border-bottom: solid;
+   border-width: 1px;
+}
+
+#previewAnnouncementsList li:hover{
+   background: #FFFF99;
+}
+
+#showMoreAnnouncementsButton {
+   position:relative; 
+   margin-left:-100px;
+   left:50%;
+   width:100px;
+}
+
+#hideMoreAnnouncementsButton {
+   position:relative; 
+   margin-left:-100px;
+   left:50%;
+   width:100px;   
+}
+
+#announcementsTable {
+    width: 100%;
+}
+
+#announcementsTable tr.alt td {
+    background-color: #FFFFEE;
+}
+
+#announcementsTable td.class {
+    width: 25%;
+}
+
+#announcementsTable td.description {
+    width: 60%;
+}
+
+#announcementsTable td.posted {
+    width: 15%;
+}
