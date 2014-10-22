@@ -1,3 +1,5 @@
+// Credit to Alexander Farkas (Starry Night)
+
 (function($) {
 	$.extend($.fx.step,{
 	    backgroundPosition: function(fx) {
